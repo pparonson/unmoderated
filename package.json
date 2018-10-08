@@ -23,6 +23,10 @@
     "webpack-dev-server": "^3.1.9"
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "d3": "^5.7.0",
+    "google-search-trends": "^0.0.2",
+    "google-trends-api": "^4.7.0",
+    "google-trends-api-es": "^1.2.6"
   }
 }
