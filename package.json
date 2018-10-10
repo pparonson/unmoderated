@@ -27,6 +27,7 @@
     "d3": "^5.7.0",
     "google-search-trends": "^0.0.2",
     "google-trends-api": "^4.7.0",
-    "google-trends-api-es": "^1.2.6"
+    "google-trends-api-es": "^1.2.6",
+    "twit": "^2.2.11"
   }
 }
