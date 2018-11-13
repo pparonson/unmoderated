@@ -1,7 +1,5 @@
-
-
-function view(_model) {
+function view() {
   return _model
 }
 
-export default view
+// export default view
