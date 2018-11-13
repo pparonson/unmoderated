@@ -10,13 +10,19 @@
     "start": "webpack-dev-server --public --host 0.0.0.0 --port 8080"
   },
   "dependencies": {
-    "tachyons": "^4.11.1"
+    "d3": "^5.7.0",
+    "google-trends-api": "^4.7.0",
+    "tachyons": "^4.11.1",
+    "twit": "^2.2.11"
   },
   "devDependencies": {
     "@babel/core": "^7.1.5",
     "@babel/preset-env": "^7.1.5",
     "babel-loader": "^8.0.4",
     "eslint": "^5.9.0",
+    "hyperscript-helpers": "^3.0.3",
+    "ramda": "^0.25.0",
+    "virtual-dom": "^2.1.1",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
