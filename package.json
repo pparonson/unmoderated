@@ -1,33 +1,30 @@
 {
   "name": "unmoderated",
   "version": "1.0.0",
+  "private": true,
   "main": "index.js",
+  "author": "pparonson",
+  "license": "MIT",
   "scripts": {
     "build": "yarn cache clean & webpack",
-    "start": "webpack-dev-server --open"
-  },
-  "author": "Preston Aronson",
-  "license": "UNLICENSED",
-  "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "babel-loader": "^8.0.4",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "eslint": "^5.6.1",
-    "hyperscript-helpers": "^3.0.3",
-    "ramda": "^0.25.0",
-    "tachyons": "^4.11.1",
-    "virtual-dom": "^2.1.1",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.9"
+    "start": "webpack-dev-server --public --host 0.0.0.0 --port 8080"
   },
   "dependencies": {
-    "axios": "^0.18.0",
     "d3": "^5.7.0",
-    "google-search-trends": "^0.0.2",
     "google-trends-api": "^4.7.0",
-    "google-trends-api-es": "^1.2.6",
+    "tachyons": "^4.11.1",
     "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.9.0",
+    "hyperscript-helpers": "^3.0.3",
+    "ramda": "^0.25.0",
+    "virtual-dom": "^2.1.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   }
 }
